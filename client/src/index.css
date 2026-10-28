@@ -1,0 +1,32 @@
+
+body {
+  margin: 0;
+  background-color: #f5f7fb;
+  color: #212529;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.completed {
+  color: #6c757d;
+  text-decoration: line-through;
+}
+
+button {
+  transition: opacity 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.88;
+}
+
+textarea {
+  resize: vertical;
+}
